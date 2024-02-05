@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin: 0; /* Add margin: 0 to remove default margin */
+    padding: 0; /* Add padding: 0 to remove default padding */
+}
+
+.logojuego, img {
+    text-align: center;
+}
+
+.tablero td{
+    
+}
+.titulo{
+    text-align: center;
+}
+
+.botonReinicio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
+
+/*Tablero*/
+
+.tablero {
+    height: 770px;
+    width: 850px;
+    margin: 20px auto; /* ajusta según sea necesario */
+    padding: 0 auto;
+    background-color: rgb(252, 208, 0, 255);
+    border-radius: 20px;
+}
+
+
+td {
+    border-radius: 100%;
+    text-align: center;
+
+}
+
+.tablero td:not(.redonda) {
+   
+    border-radius: 50%;
+    height: 110px;
+    width: 200px;
+}
+
+.titulojuego {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: "Arial", sans-serif;
+    font-size: 36px;
+    color: #4400ff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    
+}
+
